@@ -1,7 +1,6 @@
 const meuModulo = require('./soma.js')
-const calculadora = meuModulo.calculadora
-
-calculadora(26, 52, "+")
-calculadora(50, 24, "-")
-calculadora(4, 24, "*")
-calculadora(60, 5, "-")
+meuModulo.calculadora(26, 52, "+")
+meuModulo.calculadora(50, 24, "-")
+meuModulo.calculadora(4, 24, "*")
+meuModulo.calculadora(125, 25, "/")
+console.log
